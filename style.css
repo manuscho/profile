@@ -1,0 +1,68 @@
+body {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 100;
+  background-color: #1b262c;
+  color: #000000;
+  z-index: 1;
+  top: 5em;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 50px auto 50px auto;
+}
+
+a {
+  background-color: #3282b8;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+  font-family:;
+}
+
+a:hover {
+  background-color: #0f4c75;
+  color: white;
+}
+
+h1 {
+  color: #1b262c;
+  line-height: 0;
+}
+
+h2 {
+  font-size: 15px;
+}
+@media (max-width: 6000px) {
+  /* For a screen < 720px, this CSS will be read */
+  .invisible {
+    visibility: visible;
+  }
+}
+
+@media (max-width: 1000px) {
+  /* For a screen < 960px, this CSS will be read */
+  .invisible {
+    visibility: hidden;
+  }
+}
+
+
+img {
+  width: 100px;
+  border-radius:5px;
+  position: relative;
+  z-index: 2;
+  left: 45em;
+  top: 5em;
+}
+
+
+.content-boxes {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  padding: 10px;
+  width: 700px;
+  margin: 10px auto 10px auto;
+}
